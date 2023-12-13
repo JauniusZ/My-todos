@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">My todos</h1>
+      </div>
+      <form id="todoForm">
+        <input
+          type="text"
+          id="inputField"
+          name="inputField"
+          class="todos-input"
+          placeholder="What needs to be done?"
+        />
+      </form>
+      <ul class="todos-list" id="list"></ul>
+      <div class="tools">
+        <div class="todos-left">
+          <span id="todos-left" class="count-box"></span>
+          <p>Items left</p>
+        </div>
+        <div id="filters" class="filters">
+          <span>
+            <input
+              type="radio"
+              name="filters"
+              id="option1"
+              value="all"
+              checked
+            />
+            <label for="option1">all</label>
+          </span>
+          <span>
+            <input type="radio" name="filters" id="option2" value="active" />
+            <label for="option2">active</label>
+          </span>
+          <span>
+            <input type="radio" name="filters" id="option3" value="completed" />
+            <label for="option3">completed</label>
+          </span>
+        </div>
+        <div class="clear-btn-container">
+          <button id="clearCheckedTodosBtn" class="clear-btn">
+            Clear Checked
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
