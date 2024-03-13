@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "title": "Go for a walk",
+    "completed": true
+  },
+  {
+    "id": "2",
+    "title": "Do nothing",
+    "completed": false
+  },
+  {
+    "id": "3",
+    "title": "Read a book",
+    "completed": true
+  },
+  {
+    "id": "4",
+    "title": "Buy groceries",
+    "completed": false
+  },
+  {
+    "id": "5",
+    "title": "Do nothing",
+    "completed": true
+  },
+  {
+    "id": "6",
+    "title": "Clean the house",
+    "completed": true
+  }
+   
+]
