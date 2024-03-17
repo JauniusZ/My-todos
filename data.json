@@ -24,8 +24,9 @@
       "title": "Do nothing",
       "completed": true
     },
-    {
-      "id": "6",
+    
+    { 
+    "id": "6",
       "title": "Clean the house",
       "completed": true
     } 
